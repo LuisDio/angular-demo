@@ -1,10 +1,12 @@
+
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 import { CustomersComponent } from './customers.component';
 
 @NgModule({
-  imports:      [ BrowserModule ],
+  imports:      [ CommonModule ],
   declarations: [ CustomersComponent ],
+  exports: [ CustomersComponent ]
 })
-export class AppModule { }
+export class CustomersModule { }

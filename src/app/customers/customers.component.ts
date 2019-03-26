@@ -1,6 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
 
+// component decorator
 @Component({
     selector: 'app-customers',
     templateUrl: './customers.component.html'
