@@ -1,11 +1,13 @@
 
+// Import component decorator
 import { Component, OnInit } from '@angular/core';
 
-// component decorator
+// Use component decorator with given metadatat
 @Component({
     selector: 'app-customers',
     templateUrl: './customers.component.html'
 })
+// Data in and out of template
 export class CustomersComponent implements OnInit {
     title: string;
     people: any[];
